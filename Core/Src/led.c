@@ -10,9 +10,9 @@ void LED_Init(void)
 void LedBlinking(void)
 {
     LED_RED_OFF();
-    HAL_Delay(500);
+    HAL_Delay(100);
     LED_RED_ON();
-    HAL_Delay(500);
+    HAL_Delay(100);
 }
 
 
