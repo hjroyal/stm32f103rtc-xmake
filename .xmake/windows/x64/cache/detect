@@ -1,0 +1,9 @@
+{
+    find_program = {
+        zig = false,
+        ["vswhere.exe"] = false,
+        clang = false,
+        nim = false,
+        vswhere = false
+    }
+}
