@@ -42,6 +42,7 @@ target("stm32f103rtc")
     local src_path = {
         "./Core/",
         "./Drivers/STM32F1xx_HAL_Driver/",
+        "./Module/",
     }
     -- 特殊头文件目录，不方便递归遍历的
     local inc_path = {

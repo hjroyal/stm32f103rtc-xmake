@@ -2,7 +2,6 @@
     files = {
         [[build\.objs\stm32f103rtc\cross\m3\release\startup_stm32f103xe.s.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\gpio.c.o]],
-        [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\led.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\main.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_hal_msp.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_it.c.o]],
@@ -64,7 +63,8 @@
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_tim.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.o]],
-        [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c.o]]
+        [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\Module\led\src\led.c.o]]
     },
     values = {
         [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],

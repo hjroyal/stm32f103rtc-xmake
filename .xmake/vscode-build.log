@@ -1,0 +1,9 @@
+Compile finished!!!
+Next, generate HEX and bin files.
+Generate hex and bin files ok!!!
+ 
+********************储存空间占用情况*****************************
+heap-堆, stack-栈, .data-已初始化的变量全局/静态变量, .bss-未初始化的data, .text-代码和常量
+[100%]: build ok, spent 0.265s
+warning: .\xmake.lua:60: cannot match add_files("Core\Inc\*.c") in target(stm32f103rtc)
+warning: add -v for getting more warnings ..

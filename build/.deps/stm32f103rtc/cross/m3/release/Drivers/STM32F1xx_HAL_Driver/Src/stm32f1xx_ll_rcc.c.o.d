@@ -1,9 +1,4 @@
 {
-    depfiles_gcc = "stm32f1xx_ll_rcc.o: Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_ll_rcc.c\
-",
-    files = {
-        [[Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rcc.c]]
-    },
     values = {
         [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]],
         {
@@ -14,6 +9,9 @@
             [[-IDrivers\STM32F1xx_HAL_Driver\Inc]],
             [[-IDrivers\STM32F1xx_HAL_Driver\Inc\Legacy]],
             [[-IDrivers\STM32F1xx_HAL_Driver\Src]],
+            [[-IModule\led]],
+            [[-IModule\led\inc]],
+            [[-IModule\led\src]],
             [[-IDrivers\CMSIS\Include]],
             [[-IDrivers\CMSIS\Device\ST\STM32F1xx\Include]],
             "-DUSE_HAL_DRIVER",
@@ -28,5 +26,10 @@
             "-gdwarf-2",
             "-DNDEBUG"
         }
+    },
+    depfiles_gcc = "stm32f1xx_ll_rcc.o: Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_ll_rcc.c\
+",
+    files = {
+        [[Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rcc.c]]
     }
 }
