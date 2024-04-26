@@ -1,11 +1,31 @@
 {
+    values = {
+        [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
+        {
+            "-s",
+            "-lc",
+            "-lm",
+            "-lnosys",
+            "-lrdimon",
+            "-Og",
+            "-mcpu=cortex-m3",
+            "-TSTM32F103RCTx_FLASH.ld",
+            "-Wl,--gc-sections",
+            "--specs=nosys.specs",
+            "-u",
+            "_printf_float"
+        }
+    },
     files = {
         [[build\.objs\stm32f103rtc\cross\m3\release\startup_stm32f103xe.s.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\dma.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\gpio.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\main.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_hal_msp.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_hal_timebase_tim.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_it.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\system_stm32f1xx.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\usart.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.o]],
@@ -64,23 +84,6 @@
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c.o]],
-        [[build\.objs\stm32f103rtc\cross\m3\release\Module\led\src\led.c.o]]
-    },
-    values = {
-        [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
-        {
-            "-s",
-            "-lc",
-            "-lm",
-            "-lnosys",
-            "-lrdimon",
-            "-Og",
-            "-mcpu=cortex-m3",
-            "-TSTM32F103RCTx_FLASH.ld",
-            "-Wl,--gc-sections",
-            "--specs=nosys.specs",
-            "-u",
-            "_printf_float"
-        }
+        [[build\.objs\stm32f103rtc\cross\m3\release\Module\led\led.c.o]]
     }
 }

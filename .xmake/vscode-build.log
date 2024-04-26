@@ -1,9 +1,79 @@
+[  2%]: cache compiling.release Core\Src\dma.c
+[  4%]: cache compiling.release Core\Src\gpio.c
+[  5%]: cache compiling.release Core\Src\main.c
+[  7%]: cache compiling.release Core\Src\stm32f1xx_hal_msp.c
+[  8%]: cache compiling.release Core\Src\stm32f1xx_hal_timebase_tim.c
+[  9%]: cache compiling.release Core\Src\stm32f1xx_it.c
+[ 11%]: cache compiling.release Core\Src\system_stm32f1xx.c
+[ 12%]: cache compiling.release Core\Src\usart.c
+[ 14%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+[ 15%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c
+[ 16%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c
+[ 18%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c
+ain.c:ainain.c:93:3:plicit declaration of function 'plicit-function-declarationain.c:103:5:plicit declaration of function 'plicit-function-declaration[K
+[ 19%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cec.c
+[ 21%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
+[ 22%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c
+[ 23%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c
+[ 25%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c
+[ 26%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
+[ 28%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_eth.c
+[ 29%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
+[ 30%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
+[ 32%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
+[ 33%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
+[ 35%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
+[ 36%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_hcd.c
+[ 38%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
+[ 39%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c
+[ 40%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_irda.c
+[ 42%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c
+[ 43%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_mmc.c
+[ 45%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nand.c
+[ 46%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nor.c
+[ 47%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pccard.c
+[ 49%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c
+[ 50%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c
+[ 52%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
+[ 53%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
+[ 54%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
+[ 56%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c
+[ 57%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c
+[ 59%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c
+[ 60%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_smartcard.c
+[ 61%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c
+[ 63%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c
+[ 64%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
+[ 66%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
+[ 67%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+[ 69%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c
+[ 70%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_wwdg.c
+[ 71%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_adc.c
+[ 73%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_crc.c
+[ 74%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_dac.c
+[ 76%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_dma.c
+[ 77%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_exti.c
+[ 78%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c
+[ 80%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_gpio.c
+[ 81%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_i2c.c
+[ 83%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_pwr.c
+[ 84%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rcc.c
+[ 85%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_rtc.c
+[ 87%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c
+[ 88%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_spi.c
+[ 90%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_tim.c
+[ 91%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c
+[ 92%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c
+[ 94%]: cache compiling.release Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c
+[ 95%]: cache compiling.release Module\led\led.c
+[ 97%]: compiling.release startup_stm32f103xe.s
+[ 98%]: linking.release stm32f103rtc.elf
 Compile finished!!!
 Next, generate HEX and bin files.
 Generate hex and bin files ok!!!
  
 ********************储存空间占用情况*****************************
 heap-堆, stack-栈, .data-已初始化的变量全局/静态变量, .bss-未初始化的data, .text-代码和常量
-[100%]: build ok, spent 0.265s
-warning: .\xmake.lua:60: cannot match add_files("Core\Inc\*.c") in target(stm32f103rtc)
+[100%]: build ok, spent 3.125s
+warning: .\xmake.lua:62: cannot match add_files("Core\Inc\*.c") in target(stm32f103rtc)
 warning: add -v for getting more warnings ..

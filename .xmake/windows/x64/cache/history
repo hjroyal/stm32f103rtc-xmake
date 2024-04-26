@@ -1,6 +1,12 @@
 {
     cmdlines = {
         "xmake ",
+        "xmake ",
+        "xmake ",
+        "xmake check",
+        "xmake ",
+        [[xmake l c:\Users\hjroyal\.vscode\extensions\tboox.xmake-vscode-2.3.3\assets\explorer.lua]],
+        "xmake ",
         "xmake check"
     }
 }
