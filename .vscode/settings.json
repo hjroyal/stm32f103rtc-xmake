@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "qp_pkg.h": "c"
     },
     "cortex-debug.armToolchainPath": "C:\\APP\\ENV\\C_CPP\\GCC-ARM-NONE-EABI\\BIN",
     "cortex-debug.openocdPath": "C:\\APP\\ENV\\C_CPP\\OPENOCD\\BIN\\OPENOCD.EXE"

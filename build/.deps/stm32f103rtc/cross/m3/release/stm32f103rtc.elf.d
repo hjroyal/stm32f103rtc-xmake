@@ -1,24 +1,6 @@
 {
-    values = {
-        [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
-        {
-            "-s",
-            "-lc",
-            "-lm",
-            "-lnosys",
-            "-lrdimon",
-            "-Og",
-            "-mcpu=cortex-m3",
-            "-TSTM32F103RCTx_FLASH.ld",
-            "-Wl,--gc-sections",
-            "--specs=nosys.specs",
-            "-u",
-            "_printf_float"
-        }
-    },
     files = {
         [[build\.objs\stm32f103rtc\cross\m3\release\startup_stm32f103xe.s.o]],
-        [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\dma.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\gpio.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\main.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Core\Src\stm32f1xx_hal_msp.c.o]],
@@ -84,6 +66,38 @@
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.o]],
         [[build\.objs\stm32f103rtc\cross\m3\release\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_utils.c.o]],
-        [[build\.objs\stm32f103rtc\cross\m3\release\Module\led\led.c.o]]
+        [[build\.objs\stm32f103rtc\cross\m3\release\Module\led\led.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\include\qstamp.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qep_hsm.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qep_msm.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_act.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_actq.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_defer.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_dyn.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_mem.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_ps.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_qact.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_qeq.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_qmact.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qf_time.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qv.c.o]],
+        [[build\.objs\stm32f103rtc\cross\m3\release\qp_core\qv\qv_port.c.o]]
+    },
+    values = {
+        [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
+        {
+            "-s",
+            "-lc",
+            "-lm",
+            "-lnosys",
+            "-lrdimon",
+            "-Og",
+            "-mcpu=cortex-m3",
+            "-TSTM32F103RCTx_FLASH.ld",
+            "-Wl,--gc-sections",
+            "--specs=nosys.specs",
+            "-u",
+            "_printf_float"
+        }
     }
 }

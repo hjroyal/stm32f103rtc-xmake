@@ -1,59 +1,59 @@
 {
     ["arm-none-eabi_arch_m3_plat_cross"] = {
         arch = "m3",
-        sdkdir = [[C:\app\env\c_cpp\gcc-arm-none-eabi]],
         bindir = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin]],
         plat = "cross",
+        sdkdir = [[C:\app\env\c_cpp\gcc-arm-none-eabi]],
         cross = "arm-none-eabi-"
     },
     tool_target_stm32f103rtc_cross_m3_sh = {
         toolchain_info = {
-            cachekey = "arm-none-eabi_arch_m3_plat_cross",
-            arch = "m3",
+            plat = "cross",
             name = "arm-none-eabi",
-            plat = "cross"
-        },
-        toolname = "gxx",
-        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]]
-    },
-    tool_target_stm32f103rtc_cross_m3_ld = {
-        toolchain_info = {
-            cachekey = "arm-none-eabi_arch_m3_plat_cross",
             arch = "m3",
-            name = "arm-none-eabi",
-            plat = "cross"
+            cachekey = "arm-none-eabi_arch_m3_plat_cross"
         },
-        toolname = "gxx",
-        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]]
-    },
-    tool_target_stm32f103rtc_cross_m3_as = {
-        toolchain_info = {
-            cachekey = "arm-none-eabi_arch_m3_plat_cross",
-            arch = "m3",
-            name = "arm-none-eabi",
-            plat = "cross"
-        },
-        toolname = "gcc",
-        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]]
-    },
-    tool_target_stm32f103rtc_cross_m3_cc = {
-        toolchain_info = {
-            cachekey = "arm-none-eabi_arch_m3_plat_cross",
-            arch = "m3",
-            name = "arm-none-eabi",
-            plat = "cross"
-        },
-        toolname = "gcc",
-        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]]
+        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
+        toolname = "gxx"
     },
     tool_target_stm32f103rtc_cross_m3_cxx = {
         toolchain_info = {
-            cachekey = "arm-none-eabi_arch_m3_plat_cross",
-            arch = "m3",
+            plat = "cross",
             name = "arm-none-eabi",
-            plat = "cross"
+            arch = "m3",
+            cachekey = "arm-none-eabi_arch_m3_plat_cross"
         },
-        toolname = "gcc",
-        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]]
+        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]],
+        toolname = "gcc"
+    },
+    tool_target_stm32f103rtc_cross_m3_cc = {
+        toolchain_info = {
+            plat = "cross",
+            name = "arm-none-eabi",
+            arch = "m3",
+            cachekey = "arm-none-eabi_arch_m3_plat_cross"
+        },
+        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]],
+        toolname = "gcc"
+    },
+    tool_target_stm32f103rtc_cross_m3_ld = {
+        toolchain_info = {
+            plat = "cross",
+            name = "arm-none-eabi",
+            arch = "m3",
+            cachekey = "arm-none-eabi_arch_m3_plat_cross"
+        },
+        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-g++]],
+        toolname = "gxx"
+    },
+    tool_target_stm32f103rtc_cross_m3_as = {
+        toolchain_info = {
+            plat = "cross",
+            name = "arm-none-eabi",
+            arch = "m3",
+            cachekey = "arm-none-eabi_arch_m3_plat_cross"
+        },
+        program = [[C:\app\env\c_cpp\gcc-arm-none-eabi\bin\arm-none-eabi-gcc]],
+        toolname = "gcc"
     }
 }

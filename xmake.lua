@@ -29,7 +29,8 @@ target("stm32f103rtc")
 
     add_defines(
         "USE_HAL_DRIVER",
-        "STM32F103xE"
+        "STM32F103xE",
+        "Q_SPY"
     )
     
     -- 添加链接库

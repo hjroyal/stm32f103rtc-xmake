@@ -55,8 +55,6 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern DMA_HandleTypeDef hdma_usart1_rx;
-extern DMA_HandleTypeDef hdma_usart1_tx;
 extern UART_HandleTypeDef huart1;
 extern TIM_HandleTypeDef htim1;
 
@@ -184,16 +182,17 @@ void PendSV_Handler(void)
 /**
   * @brief This function handles System tick timer.
   */
-// void SysTick_Handler(void)
-// {
-//   /* USER CODE BEGIN SysTick_IRQn 0 */
+void SysTick_Handler(void)
+{
+  /* USER CODE BEGIN SysTick_IRQn 0 */
+//   HAL_IncTick();
+  /* USER CODE END SysTick_IRQn 0 */
 
-//   /* USER CODE END SysTick_IRQn 0 */
-
-//   /* USER CODE BEGIN SysTick_IRQn 1 */
-
-//   /* USER CODE END SysTick_IRQn 1 */
-// }
+  /* USER CODE BEGIN SysTick_IRQn 1 */
+//   QF_TICK_X(0U, (void *)0); /* process time events for rate 0 */
+//   QV_ARM_ERRATUM_838869();
+  /* USER CODE END SysTick_IRQn 1 */
+}
 
 /******************************************************************************/
 /* STM32F1xx Peripheral Interrupt Handlers                                    */
@@ -201,34 +200,6 @@ void PendSV_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
-
-/**
-  * @brief This function handles DMA1 channel4 global interrupt.
-  */
-void DMA1_Channel4_IRQHandler(void)
-{
-  /* USER CODE BEGIN DMA1_Channel4_IRQn 0 */
-
-  /* USER CODE END DMA1_Channel4_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_usart1_tx);
-  /* USER CODE BEGIN DMA1_Channel4_IRQn 1 */
-
-  /* USER CODE END DMA1_Channel4_IRQn 1 */
-}
-
-/**
-  * @brief This function handles DMA1 channel5 global interrupt.
-  */
-void DMA1_Channel5_IRQHandler(void)
-{
-  /* USER CODE BEGIN DMA1_Channel5_IRQn 0 */
-
-  /* USER CODE END DMA1_Channel5_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_usart1_rx);
-  /* USER CODE BEGIN DMA1_Channel5_IRQn 1 */
-
-  /* USER CODE END DMA1_Channel5_IRQn 1 */
-}
 
 /**
   * @brief This function handles TIM1 update interrupt.
